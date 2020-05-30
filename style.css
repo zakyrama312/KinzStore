@@ -1,0 +1,185 @@
+/* body{
+    background-color: black;
+    color: white;
+} */
+.nice{
+    display: none;
+}
+.carousel-inner{
+    max-height: 300px;
+}
+.carousel-inner .carousel-item ,img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+::-webkit-scrollbar{
+    width: 1px;
+}
+.card{
+    min-height: 300px;
+}
+.card img{
+    height: 150px;
+}
+.card-body h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.navbar-brand{
+    font-family: "another danger";
+    display: flex;
+    font-size: 30px;
+}
+.brand{
+    color: black;
+    margin-left: -10px;
+}
+@font-face{
+    font-family: "another danger";
+    src: url(Another\ Danger\ -\ Demo.otf);
+}
+.img-fluid{
+    width: 20%;
+}
+.copy{
+    font-family: "another danger";
+    font-size: 240px;
+    margin-top: 30px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.deskripsi{
+    font-size: 12px;
+    color: grey;
+}
+.ulasan{
+    font-size: 14px;
+}
+.diskusi{
+    width: 20%;
+    margin-right: 20px;
+}
+.profil{
+    width:  100px;
+    max-height: 100px;
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-top: 10px;
+}
+.namaprofil{
+    margin-top: 10px;
+    color: black;
+}
+.fa-pen{
+    margin-left: 5px;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 2px;
+}
+ul{
+    justify-content: start;
+}
+.list{
+    list-style: none;
+    border-left: 2px solid black;
+    padding-left: 20px;
+}
+a li:hover{
+    color: green;
+    border-left: 2px solid green;
+
+}
+a li:visited{
+    color: green;
+    border-left: 2px solid green;
+}
+.upload{
+    font-size: 12px;
+    color: grey;
+    margin-top: 10px;
+    text-align: justify;
+}
+.nav-item:visited{
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+   
+    /* .navi{
+       display: none;
+   }
+    .nice{
+        display: block;
+    }
+    .nav-bot{ */
+        /* text-align: center; */
+        /* font-size: 30px; */
+        /* margin-left: 60px; */
+        /* color: grey;
+    } */
+/* 
+    .slide{
+        margin-top: -90px;
+    } */
+
+
+    .copy{
+        font-family: "another danger";
+        font-size: 140px;
+        margin-top: 30px;
+    }
+    .diskusi{
+        width: 10%;
+    }
+    .cardi{
+        min-height:  auto;
+        
+    }
+    .cardi img{
+        height: 80px;
+    }
+    .cardi-body h5{
+        text-align: start;
+        font-size: 7px;
+        margin-left: -15px;
+        font-weight: bold;
+    }
+    .cardi-text{
+        font-size: 8px;
+        margin-left: -15px;
+    }
+    .cardi-footer{
+        background-color: white;
+        border-top: none;
+    }
+    .img-fluid{
+        width: 10%;
+    }
+}
